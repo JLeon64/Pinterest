@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 3px solid darkcyan;
+
+  h1 {
+    font-size: 40px;
+    color:darkcyan;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* text-shadow: 4px 4px 1px  rgba(0,0,0,0.75); */
+  }
+
+  input {
+    outline: none;
+    border: 4px solid black;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    transition: 0.3s;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.75);
+  }
+
+  input:hover {
+    border: 4px solid darkcyan;
+  }
+
+  input:focus {
+    border: 4px solid darkcyan;
+  }
+
+  button {
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition: 0.3s;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.75);
+  }
+
+  button:hover {
+    border: 2px solid darkcyan;
+    background: darkcyan;
+    color: white;
+  }
+}

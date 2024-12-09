@@ -1,0 +1,9 @@
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid black;
+
+    p {
+        letter-spacing: 2px;
+    }
+}
