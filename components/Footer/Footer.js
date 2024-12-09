@@ -1,4 +1,4 @@
-import "./footer.css";
+import "./Footer.css";
 
 const template = () => `
 <p>© My Pinterest 2024 - Made with ❤️ by JLeon</p>

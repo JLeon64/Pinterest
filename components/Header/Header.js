@@ -1,4 +1,4 @@
-import "./header.css";
+import "./Header.css";
 
 const template = () => `
 <h1>My Pinterest</h1>
